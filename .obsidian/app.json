@@ -1,1 +1,5 @@
-{}
+{
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "tabSize": 4
+}

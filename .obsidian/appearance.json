@@ -1,1 +1,6 @@
-{}
+{
+  "showRibbon": true,
+  "showViewHeader": true,
+  "theme": "obsidian",
+  "nativeMenus": false
+}
