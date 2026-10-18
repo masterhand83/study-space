@@ -8,7 +8,7 @@ week: {{date:GGGG-[W]WW}}
 2. [ ] **Misses → cards:** turn this week's "Quiz misses" from daily notes into `Question::Answer` cards
 3. [ ] **Mixed quiz:** ask any AI `mix quiz` (all 3 topics, 10 questions)
 4. [ ] **Next week:** tick off finished items in each hub and write ONE next step per topic
-5. [ ] **Push:** `./_system/tools/sync.sh`
+5. [ ] **Push:** `just sync`
 
 ## Wins this week
 

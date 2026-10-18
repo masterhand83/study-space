@@ -11,7 +11,7 @@ aliases:
 > Their files live in `.obsidian/plugins/` and travel with git, so every computer gets them.
 > **On each computer, once (1 min):** open the folder as a vault → when asked *"Do you trust the author of this vault?"* choose **Trust author and enable plugins**. Or go to `Settings → Community plugins → Turn on community plugins`.
 >
-> **Updating (monthly is plenty):** `Settings → Community plugins → Check for updates`, then run `sync.sh` so other computers get the update.
+> **Updating (monthly is plenty):** `Settings → Community plugins → Check for updates`, then run `just sync` so other computers get the update.
 
 Installing an optional one: `Settings → Community plugins → Browse`, search the name, then **Install** and **Enable**.
 
@@ -50,8 +50,8 @@ Flashcards inside your notes, with review scheduling. Your cards stay in plain M
 
 | Problem you notice | Plugin | Notes |
 | --- | --- | --- |
-| "I keep forgetting to run `sync.sh`." 2+ weeks of stale pushes. | **Git** (by Vinzent03) | Auto-commit and push every 30 min while Obsidian is open. Desktop only works reliably. |
-| You want the newest scheduling algorithm (FSRS) | Nothing new: `Settings → Spaced Repetition → Algorithm → FSRS` | Wait until the plugin stops labelling it experimental. Run `sync.sh` first so you can roll back. |
+| "I keep forgetting to run `just sync`." 2+ weeks of stale pushes. | **Git** (by Vinzent03) | Auto-commit and push every 30 min while Obsidian is open. Desktop only works reliably. |
+| You want the newest scheduling algorithm (FSRS) | Nothing new: `Settings → Spaced Repetition → Algorithm → FSRS` | Wait until the plugin stops labelling it experimental. Run `just sync` first so you can roll back. |
 | Search misses things in long notes | **Omnisearch** (by scambier) | Better full-text search, including inside PDFs (with an extra add-on) |
 | You get a tablet with a stylus | Nothing new. **Excalidraw** handles pen input. | Only consider **Ink** if you want handwriting inline in notes. |
 

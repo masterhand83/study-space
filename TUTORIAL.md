@@ -74,7 +74,7 @@ Bored? Switch topics. **Switching beats stopping.**
 In a terminal opened in the vault folder:
 
 ```bash
-./_system/tools/sync.sh
+just sync
 ```
 
 That's your commit and push in one step, so browser AIs see today's notes.
@@ -157,7 +157,7 @@ Rules for good cards:
    2. Turn this week's quiz misses into cards
    3. `mix quiz` with any AI
    4. Write ONE next step per topic in each hub's **Now** section
-   5. Run `sync.sh`
+   5. Run `just sync`
 
 ---
 
@@ -181,7 +181,7 @@ Everything is in the [[AWS AI Practitioner]] hub:
 | Stuck on a concept | `explain-back <concept>`. If still stuck, ask the AI to explain it. Then write it in your own words. |
 | Can't start | Do step 1 only: open Obsidian. That's allowed to be the whole day. |
 | Tempted to tweak plugins or themes | Read [[RECOMMENDED_EXTENSIONS]] → "Skip these". Then do 10 min of cards instead. |
-| Browser AI quizzes on old notes | Run `sync.sh`. In Claude Projects, also click the sync icon. |
+| Browser AI quizzes on old notes | Run `just sync`. In Claude Projects, also click the sync icon. |
 | Lost rhythm entirely | Re-read the "Lost?" box at the top of this file. That's the restart. |
 
 ---
@@ -203,7 +203,7 @@ Everything is in the [[AWS AI Practitioner]] hub:
 ### Adding a 4th topic later
 
 ```bash
-./_system/tools/new-topic.sh "Topic Name"
+just new-topic Topic Name
 ```
 
 Then add it to the Focus table in [[Today]] and to the topic table in [[AGENTS]].

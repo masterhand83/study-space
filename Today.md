@@ -74,5 +74,5 @@ views:
 Commit and push so browser AIs see your latest notes:
 
 ```bash
-./_system/tools/sync.sh
+just sync
 ```

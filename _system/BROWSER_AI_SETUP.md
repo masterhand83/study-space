@@ -18,7 +18,7 @@ CLI agents read `AGENTS.md` automatically. Browser and desktop apps read the vau
    ```bash
    git push -u origin main
    ```
-4. From now on, `./_system/tools/sync.sh` commits and pushes in one step.
+4. From now on, `just sync` commits and pushes in one step.
 
 ## 2. CLI agents (0 min, already set up)
 
@@ -37,7 +37,7 @@ Create **one project per app**, all with the same instructions: the full content
 
 | App | Steps | Caveat |
 | --- | --- | --- |
-| **Claude** (claude.ai / desktop) | New **Project** → paste `AGENTS.md` into *Project instructions* → *Add content* → **GitHub** → pick the `study-space` repo (or just `Topics/`, `Daily/`, `AGENTS.md`) | Project files are a **snapshot**. After `sync.sh`, click the **sync** icon in the project. |
+| **Claude** (claude.ai / desktop) | New **Project** → paste `AGENTS.md` into *Project instructions* → *Add content* → **GitHub** → pick the `study-space` repo (or just `Topics/`, `Daily/`, `AGENTS.md`) | Project files are a **snapshot**. After `just sync`, click the **sync** icon in the project. |
 | **ChatGPT** (web / desktop) | Connect the **GitHub** app (Settings → Apps/Connectors) and give it access to `study-space` → new **Project** → paste `AGENTS.md` into the project instructions → in a chat, enable GitHub and name the repo | Newly connected repos can take a few minutes to appear. Availability depends on your plan. |
 | **Gemini** (web) | New **Gem** → paste `AGENTS.md` as instructions → in a chat, use **+ → Import code** → paste the GitHub repo URL | Snapshot import. Re-import after big changes. These steps are less verified than the other two, so check Google's help if a menu differs. |
 

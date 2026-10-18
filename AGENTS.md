@@ -75,7 +75,7 @@ The learner pastes it (or a CLI agent appends it) under `## Quiz misses` in toda
 
 - **May:** append the quiz block to today's daily note (create it from `_system/templates/Daily.md` if missing, replacing `{{date}}` with `YYYY-MM-DD`); add **approved** cards under the `## Cards` section of the right note; tick hub checkboxes the learner confirms they've earned.
 - **Ask first:** creating new notes, moving files.
-- **Never:** commit, push, or run `_system/tools/sync.sh` unless asked. Never edit `.obsidian/`.
+- **Never:** commit, push, or run `just sync` / `_system/tools/sync.sh` unless asked. Never edit `.obsidian/`.
 
 ## If you're a browser or desktop app (read-only GitHub connector or uploaded files)
 
