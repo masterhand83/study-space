@@ -3,3 +3,6 @@
 .obsidian/workspace-mobile.json
 .trash/
 .DS_Store
+
+# Excalidraw settings can hold encrypted AI API keys; defaults are fine on a new machine
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json
