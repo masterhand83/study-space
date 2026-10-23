@@ -17,8 +17,8 @@ Forgot how something works? → [[TUTORIAL]]
 
 | Topic | Hub | Next step |
 | --- | --- | --- |
-| AWS AI Practitioner | [[AWS AI Practitioner]] | Next unchecked box in the hub's weekly plan |
-| Systems Thinking | [[Systems Thinking]] | Next item in the hub's "Now" section |
+| AWS AI Practitioner | [[Topics/AWS AI Practitioner/README|AWS AI Practitioner]] | Next unchecked box in the hub's weekly plan |
+| Systems Thinking | [[Introduction to]] | Next item in the hub's "Now" section |
 | Storytelling | [[Storytelling]] | Next item in the hub's "Now" section |
 
 **Default rotation:** AWS on Mon, Wed, Fri, Sun. Systems Thinking on Tue and Thu. Storytelling on Sat.
