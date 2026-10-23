@@ -1,5 +1,6 @@
 ---
 aliases:
+  - AWS AI Practitioner
   - AIF-C01
   - AWS AI cert
 target: December 2026 (stretch goal is November)

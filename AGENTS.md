@@ -12,7 +12,7 @@ An adult learner, likely with ADHD, studying three topics:
 | Systems Thinking | `Topics/Systems Thinking/` | Understanding and applying it at work and in life |
 | Storytelling | `Topics/Storytelling/` | Understanding and applying it at work and in life |
 
-Each topic folder has a **hub note** with the same name as the folder. Read it first: it holds the current focus, the plan and the progress checkboxes.
+Each new topic folder has a **front page** at `Topics/<topic>/README.md`, created with `just create-topic "Topic Name"` from `_system/templates/Topic Hub.md`. Read it first: it holds the current focus, the plan and the progress checkboxes. For older topics without a README, read the hub note with the same name as the folder.
 
 ## Your role: tutor, not note-writer
 

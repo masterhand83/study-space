@@ -163,7 +163,7 @@ Rules for good cards:
 
 ## Part 6: AWS exam path
 
-Everything is in the [[AWS AI Practitioner]] hub:
+Everything is in the [[Topics/AWS AI Practitioner/README|AWS AI Practitioner]] hub:
 - **Weekly plan** (W1 = Oct 19 → W8 = Dec 7). Tick each week when it's done.
 - **Domain checklist.** Tick a task only when you can explain it **without notes**.
 - **Booking rule:** book the exam once **2 practice exams are ≥80%**. Not by date.
@@ -194,7 +194,7 @@ Everything is in the [[AWS AI Practitioner]] hub:
 | Daily notes | `Daily/` (one per day, created automatically) |
 | Quick captures | `Inbox/` (sorted weekly) |
 | Topic notes, drawings, cards | `Topics/<topic>/` |
-| Topic plan and progress | the hub note in each topic folder (same name as the folder) |
+| Topic plan and progress | `Topics/<topic>/README.md` (older topics may still have a same-name hub) |
 | Templates | `_system/templates/` |
 | AI rules (paste into AI projects) | [[AGENTS]] |
 | Why the system works this way | [[STUDY_METHOD]] |
@@ -203,10 +203,10 @@ Everything is in the [[AWS AI Practitioner]] hub:
 ### Adding a 4th topic later
 
 ```bash
-just new-topic Topic Name
+just create-topic "Topic Name"
 ```
 
-Then add it to the Focus table in [[Today]] and to the topic table in [[AGENTS]].
+This creates `Topics/Topic Name/README.md` from the Topic Hub template. Then add `[[Topics/Topic Name/README|Topic Name]]` to the Focus table in [[Today]] and add the topic to the topic table in [[AGENTS]].
 
 ---
 

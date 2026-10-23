@@ -21,7 +21,7 @@ Missed days: no catch-up. Today's minimum is the whole job.
 ```
 Today.md          dashboard: focus, what to do, recent notes
 Inbox/            new notes land here; sort weekly
-Topics/<topic>/   hub note + notes + drawings + cards for that topic
+Topics/<topic>/   README.md front page + notes + drawings + cards for that topic
 Daily/            one note per day: log, quiz misses, win of the day
 _system/          templates, AI setup, scripts, method, markdown reference
 AGENTS.md         rules every AI follows here (tutor, never note-writer)
@@ -33,5 +33,5 @@ AGENTS.md         rules every AI follows here (tutor, never note-writer)
 - Plugins to install: [[RECOMMENDED_EXTENSIONS]]
 - Connecting browser AIs: [[BROWSER_AI_SETUP]]
 - Markdown syntax: [[MARKDOWN_SAMPLE]]
-- New topic: `just new-topic Topic Name`
+- New topic: `just create-topic "Topic Name"` creates `Topics/Topic Name/README.md` from the Topic Hub template (`just new-topic` also works).
 - All commands: run `just` in the vault (needs [just](https://github.com/casey/just); without it, run the scripts in `_system/tools/`)
