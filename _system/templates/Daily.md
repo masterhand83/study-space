@@ -16,12 +16,16 @@ minutes:
 
 ## Log
 
+<!-- Record what you tried and what you noticed. Example: "10 min — recalled feedback loops; I still confuse reinforcing with balancing." -->
+
 - 
 
 ## Quiz misses
 
-<!-- Paste the "Quiz" block an AI gives you at the end of a quiz here. Turn the misses into cards at the end of the week. -->
+<!-- Paste the "Quiz" block an AI gives you at the end of a quiz here. Turn the misses into cards at the end of the week. Example missed item: "Feedback loops: I called a balancing loop reinforcing." Approve AI-suggested cards before saving them. -->
 
 ## Win of the day
+
+<!-- Name one thing you did, however small. Example: "I explained one concept without checking my notes." -->
 
 - 
