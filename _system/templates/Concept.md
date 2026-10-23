@@ -5,6 +5,7 @@ created: {{date}}
 ---
 
 # {{title}}
+<!--SR:!2026-10-25,3,250-->
 
 ## In my own words
 

@@ -3,6 +3,7 @@ status: active
 ---
 
 # {{title}}
+<!--SR:!2026-10-25,3,250-->
 
 ## Why I'm learning this (1–2 lines)
 

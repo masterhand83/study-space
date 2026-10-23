@@ -6,6 +6,7 @@ created: {{date}}
 ---
 
 # {{title}}
+<!--SR:!2026-10-25,3,250-->
 
 ## Before (2 min): guess first
 

@@ -2,7 +2,6 @@
 aliases:
   - Plugins
 ---
-
 # Recommended extensions
 
 **Rule: the 2 must-haves are enough.** Add an optional one only when you hit the problem it solves. Each plugin is one more thing to tweak instead of study.

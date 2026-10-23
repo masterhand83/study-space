@@ -3,6 +3,7 @@ week: {{date:GGGG-[W]WW}}
 ---
 
 # Week {{date:WW}} review (15 min)
+<!--SR:!2026-10-25,3,250-->
 
 1. [ ] **Inbox:** move each note in `Inbox/` to a topic folder, or delete it
 2. [ ] **Misses → cards:** turn this week's "Quiz misses" from daily notes into `Question::Answer` cards

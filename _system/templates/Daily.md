@@ -5,6 +5,7 @@ minutes:
 ---
 
 # {{date:dddd, D MMMM}}
+<!--SR:!2026-10-25,3,250-->
 
 → [[Today]]
 
